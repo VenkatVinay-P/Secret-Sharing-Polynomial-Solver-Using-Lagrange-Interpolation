@@ -21,9 +21,11 @@ Shamir's Secret Sharing is an algorithm used for secure data splitting, where da
    cd shamir-secret-solver
 
 2. compile the code:
+   ```bash
    gcc -o polynomial_solver polynomial_solver.c -lm
    
 4. Run the program:
+   ```bash
    ./polynomial_solver
 ## How It Works
 The program reads x values and y values encoded in different bases.
@@ -33,6 +35,8 @@ Using the decoded values, the program calculates the constant term (c) of the po
 ## Compilation and Execution
 1. Copy the code into a file named polynomial_solver.c.
 2. Compile and link the program using:
+   ```bash
    gcc -o polynomial_solver polynomial_solver.c -lm
-3. Run the compiled program:
+4. Run the compiled program:
+   ```bash
    ./polynomial_solver
