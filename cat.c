@@ -61,7 +61,7 @@ int main() {
 
     // Find the constant term (c) for test case 1
     double secret1 = lagrangeInterpolation(x1, y1, k1);
-    printf("Test Case 1 - The constant term (c) is: %.0f\n\n", secret1);
+    printf("Test Case 1 - Secret (c) is: %.0f\n\n", secret1);
 
     // Test Case 2 data
     int x2[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};  // x values
@@ -84,7 +84,7 @@ int main() {
 
     // Find the constant term (c) for test case 2
     double secret2 = lagrangeInterpolation(x2, y2, k2);
-    printf("Test Case 2 - The constant term (c) is: %.0f\n", secret2);
+    printf("Test Case 2 - Secret (c) is: %.0f\n", secret2);
 
     return 0;
 }
